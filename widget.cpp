@@ -20,7 +20,7 @@ Widget::~Widget()
 
 void Widget::OpenFile()
 {
-	QFile file( ("d://coding//test_files//elite_csv_1.csv") );
+	QFile file( ("d://elite.dangerous//elite_csv_1.csv") );
 
 	if (!file.open(QIODevice::ReadOnly))
 	{
